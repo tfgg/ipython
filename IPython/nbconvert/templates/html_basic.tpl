@@ -66,7 +66,9 @@ In&nbsp;[{{ cell.prompt_number }}]:
 {% endblock headingcell %}
 
 {% block rawcell scoped %}
+<pre>
 {{ cell.source }}
+</pre>
 {% endblock rawcell %}
 
 {% block unknowncell scoped %}
